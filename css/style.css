@@ -2,7 +2,7 @@
     font-family: "Nunito", sans-serif;
 }
 .hero{
-    background-image: url(../assets/images/herobg.jpg);
+    background-image: url(./assets/images/herobg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 .section1{
-    background-image: url(../assets/images/section1bg.jpg);
+    background-image: url(./assets/images/section1bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
