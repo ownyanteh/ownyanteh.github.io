@@ -1,0 +1,25 @@
+*{
+    font-family: "Nunito", sans-serif;
+}
+.hero{
+    background-image: url(../assets/images/herobg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.section1{
+    background-image: url(../assets/images/section1bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+a:hover{
+    color: #FB7000;
+}
+.fa-brands:hover{
+    color: #FB7000;
+}
