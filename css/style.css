@@ -114,6 +114,17 @@ a:hover{
     }
   }
 
-  code{
-    color: #fafbff;
-  } 
+.grid1{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 15px;
+grid-row-gap: 25px;
+width: 80%;
+margin: auto;
+padding-top: 50px;
+}
+.icon-style{
+  width: 32px;
+  height: 32px;
+}
