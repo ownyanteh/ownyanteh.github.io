@@ -18,87 +18,75 @@
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header class="hero">
-        <nav
-            class="flex justify-between pl-[20px] pr-[20px] fixed w-[100%] navbar bg-[rgba(255,255,255,0.95)] shadow z-[50]">
+        <nav class="flex justify-between items-center px-4 md:px-5 fixed w-full bg-white/95 shadow z-50">
+            <a href="./index.html">
+                <img src="../assets/images/own concepts design mark copy ash orange@2x.png" alt="logo" class="w-16 md:w-[70px]">
+            </a>
 
-            <a href="./index.html"><img src="../assets/images/own concepts design mark copy ash orange@2x.png"
-                    alt="logo" class="w-[70px]"></a>
-
-
-            <div class="content-center navigation">
-                <a href="#" class="mr-[20px] text-[12px]"><i class="fa fa-home" aria-hidden="true"></i> HOME</a>
-                <a href="#" class="mr-[20px] text-[12px]">SERVICES</a>
-                <a href="#" class="mr-[20px] text-[12px]">RESUME</a>
-                <a href="#" class="mr-[20px] text-[12px]">PROJECTS</a>
-                <a href="#" class="mr-[20px] text-[12px]">BLOG</a>
-                <a href="#" class="mr-[20px] text-[12px]">CONTACT</a>
-            </div>
-            <div class="content-center">
-                <i class="fa-brands fa-facebook" style="border-radius: 5px; border: solid blue 1px ; padding: 5px;"></i>
-                <i class="fa-brands fa-twitter" style="border-radius: 5px; border: solid blue 1px ; padding: 5px;"></i>
-                <i class="fa-brands fa-linkedin-in"
-                    style="border-radius: 5px; border: solid blue 1px ; padding: 5px 6px 5px 6px;"></i>
+            <div class="hidden md:flex items-center navigation">
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]"><i class="fa fa-home"></i> HOME</a>
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">SERVICES</a>
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">RESUME</a>
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">PROJECTS</a>
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">BLOG</a>
+                <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">CONTACT</a>
             </div>
 
-
+            <div class="hidden md:flex items-center space-x-3">
+                <i class="fa-brands fa-facebook border border-blue-500 rounded p-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
+                <i class="fa-brands fa-twitter border border-blue-500 rounded p-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
+                <i class="fa-brands fa-linkedin-in border border-blue-500 rounded px-[6px] py-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
+            </div>
         </nav>
-        <div class="pt-[230px] ml-[180px]">
-            <p class="text-[25px] ">
-                Hey! This is William
-            </p>
-            <div class="flex">
-                <p class="text-[75px] font-[900] text-[#42505A] mr-[20px]"> Web
-                </p>
-                <p class="text-[#fb7000] text-[75px] font-[900] tracking-in-contract"> &lt;Developer/&gt; </p>
+
+        <div class="pt-32 md:pt-[230px] px-4 md:ml-[180px]">
+            <p class="text-xl md:text-[25px]">Hey! This is William</p>
+            <div class="flex flex-wrap items-center">
+                <p class="text-4xl md:text-[75px] font-[900] text-[#42505A] mr-5">Web</p>
+                <p class="text-4xl md:text-[75px] font-[900] text-[#fb7000] tracking-in-contract">&lt;Developer/&gt;</p>
             </div>
 
-            <p class="text-[18px] w-[50vw]">
-                As a skilled Web Designer and Web Developer with over 3 years of experience, <br>I am proficient in
-                managing every stage of the development cycle for dynamic <br>and responsive web projects.
-                <!-- As a Backend Developer with over 3 years of experience working with WordPress, I also have skills in
-                Photoshop, Adobe Illustrator, and Lightroom, I possess expertise in technologies including JavaScript, Node.js,
-                Express.js, MongoDB, and Render. I am adept at utilizing Git and GitHub for version management, creating
-                RESTful APIs, and executing CRUD functionalities. With a solid grounding in backend development, I am keen to
-                play an active role in the development process of dynamic and responsive web applications while
-                consistently enhancing my knowledge and skills. -->
+            <p class="text-base md:text-lg max-w-full md:w-[50vw]">
+                As a skilled Web Designer and Web Developer with over 3 years of experience, I am proficient in
+                managing every stage of the development cycle for dynamic and responsive web projects.
             </p>
-            <div class="pt-[40px]">
-                <a href="#" class="mr-[20px] p-[10px] rounded-[5px] bg-[#42505A] text-white pulsate-fwd"><button
-                        class="pulsate-fwd rounded-[5px] bg-[#42505A]">Hire Me</button> </a>
-                <a href="https://docs.google.com/document/d/13RmXG7vaQaYvJPctGXz_IymaZ4t1sfxT/edit?usp=sharing&ouid=109322010543198077850&rtpof=true&sd=true" class="mr-[20px] border-solid border-[2px] p-[10px] rounded-[5px] border-[#42505A]">Download
-                    CV <i class="fa-solid fa-download"></i></a>
-            </div>
 
+            <div class="pt-10">
+                <a href="#" class="inline-block mr-5 px-4 py-2 rounded bg-[#42505A] text-white pulsate-fwd">
+                    <button class="pulsate-fwd rounded bg-[#42505A]">Hire Me</button>
+                </a>
+                <a href="https://docs.google.com/document/d/13RmXG7vaQaYvJPctGXz_IymaZ4t1sfxT/edit?usp=sharing&ouid=109322010543198077850&rtpof=true&sd=true" 
+                   class="inline-block mr-5 px-4 py-2 rounded border-2 border-[#42505A] hover:border-[#FB7000]">
+                    Download CV <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
         </div>
-
-
     </header>
 
     <section class="section1">
-        <div class="w-[40%] ml-[43%] pt-[350px]">
-            <p class="text-[25px] pb-[8px] font-[800] text-[#fb7000]">William Nyanteh</p>
-            <p class="text-[18px] font-[700] pb-[8px] text-[#42505A]">A Passionate <span class="text-[#fb7000]">Web
-                    &lt;Developer/&gt;</span></p>
-            <p class="leading-[24px] text-justify pb-[20px] text-[#42505A] text-[18px]">
-                I am a passionate Web Developer with a strong commitment to creating impactful and innovative web
-                experiences.
-                <!-- With over 3 years of hands-on experience,  -->
-                I thrive on bringing ideas to life through clean,
-                efficient code and intuitive design. My love for web development stems from the perfect blend of
-                creativity and problem-solving, allowing me to craft dynamic, responsive, and user-friendly websites.
-                <br><br>
-
-                I specialize in every stage of the development process, from conceptualization and design to backend
-                development and deployment. My goal is to create digital solutions that are not only visually appealing
-                but also optimized for performance and user engagement.
+        <div class="w-full md:w-[40%] md:ml-[43%] px-4 py-20 md:pt-[350px]">
+            <p class="text-xl md:text-[25px] pb-2 font-[800] text-[#fb7000]">William Nyanteh</p>
+            <p class="text-lg md:text-[18px] font-[700] pb-2 text-[#42505A]">
+                A Passionate <span class="text-[#fb7000]">Web &lt;Developer/&gt;</span>
             </p>
-            <a href="#"><button
-                    class="bg-[#42505A] pt-[10px] pb-[10px] pl-[15px] pr-[15px] rounded-[5px] text-white">View
-                    Portfolio</button></a>
+            <p class="leading-6 md:leading-[24px] text-justify pb-5 text-[#42505A] text-base md:text-lg">
+                I am a passionate Web Developer with a strong commitment to creating impactful and innovative web experiences.
+                I thrive on bringing ideas to life through clean, efficient code and intuitive design. My love for web development 
+                stems from the perfect blend of creativity and problem-solving, allowing me to craft dynamic, responsive, and 
+                user-friendly websites.
+                <br><br>
+                I specialize in every stage of the development process, from conceptualization and design to backend development 
+                and deployment. My goal is to create digital solutions that are not only visually appealing but also optimized 
+                for performance and user engagement.
+            </p>
+            <a href="#">
+                <button class="bg-[#42505A] px-4 py-2 rounded text-white hover:bg-[#FB7000]">View Portfolio</button>
+            </a>
         </div>
     </section>
+
     <section class="bg-[#fafbff]">
         <div class="pt-[100px] pb-[100px]">
             <p class="text-center text-[25px] font-[600]">
@@ -116,6 +104,7 @@
             </p>
         </div>
     </section>
+
     <section>
         <div class="pt-[100px] pb-[100px]">
             <p class="text-center text-[25px] font-[600]">
@@ -161,7 +150,7 @@
 
                     <p class="text-center p-[10px] text-[21px] hover:text-[#fb7000]">iOS App Design</p>
                     <p class="text-center text-[18px] leading-[24px]">I design sleek, user-friendly iOS apps that
-                        deliver seamless performance and an engaging user experience, optimized for Apple’s ecosystem.
+                        deliver seamless performance and an engaging user experience, optimized for Apple's ecosystem.
                     </p>
                 </div>
                 <div class="border-[1px] p-[20px] hover:border-[#fb7000] rounded-[5px]">
@@ -182,7 +171,7 @@
 
                     <p class="text-center p-[10px] text-[21px] hover:text-[#fb7000]">Photography</p>
                     <p class="text-center text-[18px] leading-[24px]">Offering professional photography services to
-                        capture high-quality visuals that enhance your brand’s online presence.</p>
+                        capture high-quality visuals that enhance your brand's online presence.</p>
                 </div>
                 <div class="border-[1px] p-[20px] hover:border-[#fb7000] rounded-[5px]">
                     <div class="flex justify-center p-[10px]">
@@ -247,6 +236,7 @@
 
         </div>
     </section>
+
     <section class="pb-[100px] pt-[100px]">
         <div>
             <div class="gridhead">
@@ -325,9 +315,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <footer>
 
