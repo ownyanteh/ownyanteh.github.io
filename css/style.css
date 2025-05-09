@@ -2,7 +2,6 @@
   font-family: "Nunito", sans-serif;
 }
 .hero{
-<<<<<<< HEAD
     background-image: url(../assets/images/herobg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -17,22 +16,6 @@
     background-size: cover;
     background-position: center right;
     min-height: 100vh;
-=======
-  background-image: url(../assets/images/herobg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.section1{
-  background-image: url(../assets/images/section1bg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center right;
-  min-height: 100vh;
->>>>>>> 880242e (Added Responsiveness)
 }
 
 a:hover{
@@ -49,7 +32,6 @@ a:hover{
 }
 
 @-webkit-keyframes tracking-in-contract {
-<<<<<<< HEAD
     0% {
       letter-spacing: 2px;
       opacity: 0;
@@ -117,75 +99,6 @@ a:hover{
   width: 90%;
   margin: auto;
   padding-top: 50px;
-=======
-  0% {
-    letter-spacing: 2px;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 2px;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
-}
-
-.pulsate-fwd {
--webkit-animation: pulsate-fwd 1s ease-in-out infinite both;
-        animation: pulsate-fwd 1s ease-in-out infinite both;
-}
-
-@-webkit-keyframes pulsate-fwd {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-@keyframes pulsate-fwd {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-.grid1{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 1.5rem;
-width: 90%;
-margin: auto;
-padding-top: 50px;
->>>>>>> 880242e (Added Responsiveness)
 }
 
 .icon-style{
@@ -194,7 +107,6 @@ height: 32px;
 }
 
 .image-grid {
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -276,87 +188,4 @@ height: 32px;
   .social-icons {
     display: none;
   }
-=======
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 1rem;
-width: 100%;
-padding: 1rem;
-}
-
-.image-grid div img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-
-.image-grid div {
-width: 100%;
-aspect-ratio: 1;
-}
-
-.gridcontainer {
-position: relative;
-overflow: hidden;
-}
-
-.gridoverlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #fb7000b3;
-}
-
-.gridtext {
-color: white;
-font-size: 12px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-}
-
-.gridcontainer:hover .gridoverlay {
-opacity: 0.9;
-transform: scale(1.25);
-border-radius: 50%;
-}
-
-.gridcontainer .gridoverlay {
-transition: all 1s ease;
-}
-
-.gridcontainer:hover .gridimage {
-transform: scale(1.25);
-border-radius: 50%;
-}
-
-.gridcontainer .gridimage {
-transition: all 1s ease;
-}
-
-.gridhead{
-background-image: url(../assets/images/gridimagebghd.svg);
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-}
-
-@media (max-width: 768px) {
-.navigation {
-  display: none;
-}
-
-.social-icons {
-  display: none;
-}
->>>>>>> 880242e (Added Responsiveness)
 }
