@@ -19,17 +19,22 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <header class="hero">
+    <header class="hero min-h-[80vh] md:min-h-screen relative bg-auto md:bg-cover bg-[position:70%_40%] md:bg-top" style="background-image: url('../assets/images/herobg.jpg');">
+
+        <!-- ✅ Mobile-Only Overlay -->
+        <div class="absolute inset-0 bg-white bg-opacity-70 md:hidden z-10"></div>
+    
+        <!-- ✅ Navbar -->
         <nav class="flex justify-between items-center px-4 md:px-5 fixed w-full bg-white/95 shadow z-50">
             <a href="./index.html">
                 <img src="../assets/images/own concepts design mark copy ash orange@2x.png" alt="logo" class="w-16 md:w-[70px]">
             </a>
-
+    
             <!-- Mobile Menu Button -->
             <button id="menuBtn" class="md:hidden text-gray-500 hover:text-[#FB7000] focus:outline-none">
                 <i class="fas fa-bars text-2xl"></i>
             </button>
-
+    
             <!-- Mobile Menu -->
             <div id="mobileMenu" class="hidden fixed top-[64px] left-0 w-full bg-white/95 shadow-md md:hidden">
                 <div class="flex flex-col py-4">
@@ -41,7 +46,8 @@
                     <a href="#" class="px-4 py-2 text-sm hover:text-[#FB7000] hover:bg-gray-100">CONTACT</a>
                 </div>
             </div>
-
+    
+            <!-- Desktop Navigation -->
             <div class="hidden md:flex items-center navigation">
                 <a href="#" class="mr-5 text-xs hover:text-[#FB7000]"><i class="fa fa-home"></i> HOME</a>
                 <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">SERVICES</a>
@@ -50,26 +56,28 @@
                 <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">BLOG</a>
                 <a href="#" class="mr-5 text-xs hover:text-[#FB7000]">CONTACT</a>
             </div>
-
+    
+            <!-- Social Icons -->
             <div class="hidden md:flex items-center space-x-3">
                 <i class="fa-brands fa-facebook border border-blue-500 rounded p-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
                 <i class="fa-brands fa-twitter border border-blue-500 rounded p-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
                 <i class="fa-brands fa-linkedin-in border border-blue-500 rounded px-[6px] py-1 hover:text-[#FB7000] hover:border-[#FB7000]"></i>
             </div>
         </nav>
-
-        <div class="pt-32 md:pt-[230px] px-4 md:ml-[180px]">
+    
+        <!-- ✅ Hero Content -->
+        <div class="pt-32 md:pt-[230px] px-4 md:ml-[180px] relative z-20">
             <p class="text-xl md:text-[25px] md:pb-1">Hey! This is William</p>
             <div class="flex flex-wrap items-center md:pb-1">
                 <p class="text-[30px] md:text-[75px] font-[900] text-[#42505A] mr-5">Web</p>
                 <p class="text-[30px] md:text-[75px] font-[900] text-[#fb7000] tracking-in-contract">&lt;Developer/&gt;</p>
             </div>
-
+    
             <p class="text-base md:text-lg max-w-full md:w-[50vw]">
                 As a skilled Web Designer and Web Developer with over 3 years of experience, I am proficient in
                 managing every stage of the development cycle for dynamic and responsive web projects.
             </p>
-
+    
             <div class="pt-10">
                 <a href="#" class="inline-block mr-5 px-4 py-2 rounded bg-[#42505A] text-white pulsate-fwd">
                     <button class="pulsate-fwd rounded bg-[#42505A]">Hire Me</button>
@@ -81,6 +89,7 @@
             </div>
         </div>
     </header>
+    
 
     <section class="section1">
         <div class="w-full md:w-[40%] md:ml-[43%] px-4 py-20 md:pt-[350px]">
